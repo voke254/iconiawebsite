@@ -1,0 +1,110 @@
+:root {
+	--primary-color: #007bff;
+	--secondary-color: #eb9772;
+	--grey-color: #e4e9f7;
+    --dark-color: #00030c;
+    
+}
+
+.navbar{
+    background-color:#007bff!important;
+    opacity: 0.8;
+}
+
+body{
+    background: #e4e9f7!important;
+}
+
+#intro{
+    background: url('../img/dataanalytics.jpg') no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 10%;
+}
+
+.intro-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 500px;
+}
+
+.inner-content{
+    padding-top: 150px;
+}
+
+.intro-info {
+    color: whitesmoke;
+    font-style: normal, 40px, sans-serif;;
+}
+.btn{
+    background-color: #007bff;
+    color: #cccccc;
+    padding: 10px 15px;
+    border: none;
+}
+.alert{
+    color: var(--secondary-color);
+    text-decoration: underline;
+    padding: none;
+}
+.icon{
+    font-size: 50px;
+    align-self: center;
+    color: var(--primary-color);
+    font-style: sans-serif, italic;
+}
+.p{
+    font: sans-serif;
+}
+
+#aboutrow{
+    padding-bottom: 3%;
+}
+#aboutusp{
+    padding-bottom: 3%;
+}
+
+#about{
+    padding-top: 3%;
+}
+
+#fewwords{
+    padding-top: 3%;
+    background: white;
+}
+.blockquote{
+    border-left: 5px solid var(--primary-color);
+    width: 100%;
+}
+#clientimg{
+   align-items: center;
+}
+
+#main-footer{
+    background-color: var(--dark-color);
+    padding-top: 3%;
+}
+
+
+#service{
+    background: url('../img/grey.jpg') no-repeat;
+    min-height: 300px;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 10%;
+}
+
+.service-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+}
+
+.service-content{
+    padding-top: 60px;   
+}
