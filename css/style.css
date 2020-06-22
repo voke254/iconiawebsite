@@ -111,7 +111,7 @@ body{
 
 #intro_prod{
     background: url('../img/machinelearning.jpg') no-repeat;
-    min-height: 500px;
+    min-height: 700px;
     background-size: cover;
     background-attachment: fixed; 
     padding-bottom: 10%;
@@ -122,7 +122,7 @@ body{
     position: absolute;
     left: 0;
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
 }
 
 .intro-info-prod{
@@ -130,3 +130,7 @@ body{
     font-style: normal, 40px, sans-serif;
     opacity: 0.7;
 }
+.card-img-overlay{
+    background-color: rgba(0,0,0,0.7);    
+}
+
