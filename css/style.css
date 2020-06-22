@@ -36,8 +36,8 @@ body{
 }
 
 .intro-info {
-    color: whitesmoke;
-    font-style: normal, 40px, sans-serif;;
+    color: #eb9772;
+    font-style: normal, 40px, sans-serif;
 }
 .btn{
     background-color: #007bff;
@@ -53,7 +53,7 @@ body{
 .icon{
     font-size: 50px;
     align-self: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-style: sans-serif, italic;
 }
 .p{
@@ -76,7 +76,7 @@ body{
     background: white;
 }
 .blockquote{
-    border-left: 5px solid var(--primary-color);
+    border-left: 5px solid var(--secondary-color);
     width: 100%;
 }
 #clientimg{
@@ -107,4 +107,26 @@ body{
 
 .service-content{
     padding-top: 60px;   
+}
+
+#intro_prod{
+    background: url('../img/machinelearning.jpg') no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 10%;
+}
+
+.intro-overlay-prod{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 500px;
+}
+
+.intro-info-prod{
+    text-decoration: var(--secondary-color);
+    font-style: normal, 40px, sans-serif;
+    opacity: 0.7;
 }
